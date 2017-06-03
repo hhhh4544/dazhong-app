@@ -1,0 +1,11 @@
+.ad h3 {
+  padding-left: 3%;
+  color: #666;
+}
+.ad a {
+  display: inline-block;
+  width: 33.3%;
+}
+.ad a img {
+  width: 100%;
+}

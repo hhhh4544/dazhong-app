@@ -1,0 +1,38 @@
+.list-item {
+  display: flex;
+  line-height: 25px;
+  margin: 10px;
+}
+.list-item img {
+  width: 120px;
+  height: 90px;
+}
+.list-item .list-item-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 2%;
+  position: relative;
+  width: 98%;
+}
+.list-item .list-item-content p {
+  width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.list-item .list-item-content strong {
+  color: red;
+}
+.list-item .list-item-content .distance {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+.list-item .list-item-content div {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item .list-item-content div span {
+  color: #ccc;
+}
